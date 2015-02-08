@@ -226,7 +226,8 @@
 				</div>  <!-- .my-social -->
 			</section>  <!-- .contact-form -->
 
+
 			<?php include("parts/footer.php"); ?>
-			
+		</div>  <!-- .main-container -->	
 	</body>
 </html>
