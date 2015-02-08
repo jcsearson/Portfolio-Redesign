@@ -1,0 +1,1 @@
+MovieWake is a movie database I designed and developed to host all the film titles I have accumulated over the years that are not well-known to most people.  Everything about the site is completely custom.  I was particularly proud of the javascript plugin "fitvids" which drastically improved the viewing quality of all previews.
