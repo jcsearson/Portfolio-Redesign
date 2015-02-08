@@ -1,3 +1,3 @@
 <header class="wrapper">
-	<h1 class="title">James C. Searson</h1>
+	<h1 class="title"><a href="/index">James C. Searson</a></h1>
 </header>
