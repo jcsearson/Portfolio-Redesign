@@ -1,3 +1,11 @@
+<?php
+
+	/*
+		Template Name: Portfolio
+	*/
+
+?>
+
 <?php include("parts/doctype.php"); ?>
 
 	<body>
@@ -59,7 +67,7 @@
 
 
 			<section class="portfolio-wrap">
-				<article class="work">
+				<article class="work single">
 					<div class="wrapper">
 						<h2>Recent Work:</h2>
 					</div>
@@ -74,11 +82,15 @@
 						</a>
 						<p>Design, HTML5, CSS3, Responsive, Wordpress</p>
 						<div class="offset-button">
-							<a href="portfolio.php">About</a>
+							<a href="http://www.drstevencaplan.com/">Visit</a>
+						</div>
+						<div class="work-description">
+							<p>Dr. Caplan came to me because he needed a new design and CMS for his website.  He is a pediatric doctor and spends a great deal of time with concerned parents.  As a result, he wanted something that was professional but would appeal to children as well.</p>
 						</div>
 					</div>  <!-- .recent-item -->
+					
 				</article>  <!-- .work -->
-				<article class="project">
+				<article class="project single">
 					<div class="wrapper">
 						<h2>Recent Project:</h2>
 					</div>
@@ -93,41 +105,14 @@
 						</a>
 						<p>Design, HTML5, CSS3, jQuery, Responsive, PHP, MySQL, Wordpress</p>
 						<div class="offset-button">
-							<a href="portfolio.php">About</a>
+							<a href="http://moviewake.com/">Visit</a>
+						</div>
+						<div class="project-description">
+							<p>MovieWake.com was a personal project of mine where I was able to demonstrate my ability to start with an idea, create a design, and then develop both the front and back end code to implement the site.  The premise for the site was to have a place where I can store a list of all the films I have watched which are not as well known to most people.</p>
 						</div>
 					</div>  <!-- .recent-item -->
 				</article>  <!-- .project -->
 			</section>  <!-- portfolio-wrap -->
-
-
-
-			<div class="blog">
-				<div class="blog-post-wrap">
-				<div class="wrapper">
-					<h1>Latest Posts:</h1>
-				</div>
-					<div class="blog-post">
-						<a href="single-post.php">How Can Cache Affect You?</a>
-						<p>Recently I got Premium WordPress Hosting with MediaTemple.  I have been working on a site for several months now and decided that I would need to have a host that could be more accessible to me in my times of need.  I use WebHosting For Students for my portfolio and have no complaints but I felt that MediaTemple would be better suited to a site which I expect to experience far greater traffic. [...]</p>
-						<div class="blog-post-meta">
-							<a href="single-post.php">
-								<h5>( Read On... )</h5>
-							</a>
-							<h3>January 14, 2015</h3>
-						</div>
-					</div>
-					<div class="blog-post">
-						<a href="single-post.php">Learning Github</a>
-						<p>I recently made it my goal to set some time aside and dive into the underbelly of GitHub, something I have been avoiding for the past few months.  I have been reading up in the forums as well as a great video series called GitHub for Web Designers by James Williamson. The following is just a brief outline of some of the things I found helpful along the way. [...]</p>
-						<div class="blog-post-meta">
-							<a href="single-post.php">
-								<h5>( Read On... )</h5>
-							</a>
-							<h3>December 12, 2014</h3>
-						</div>  <!-- .blog-post-meta -->
-					</div>  <!-- .blog-post -->
-				</div>  <!-- .blog-post-wrap -->
-			</div>  <!-- .blog -->
 
 
 

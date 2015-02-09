@@ -1,16 +1,16 @@
 <nav class="menu">
 	<ul class="nav-list active">
 		<li class="contact-container">
-			<a href="#">Contact</a>
+			<a href="contact.php">Contact</a>
 		</li>
 		<li class="contact-container">
-			<a href="#">Blog</a>
+			<a href="blog.php">Blog</a>
 		</li>
 		<li class="contact-container">
-			<a href="#">Portfolio</a>
+			<a href="portfolio.php">Portfolio</a>
 		</li>
 		<li class="contact-container">
-			<a href="#">About</a>
+			<a href="about.php">About</a>
 		</li>
 	</ul>
 </nav>

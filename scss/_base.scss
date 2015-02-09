@@ -6,12 +6,12 @@
 }
 
 body {
-	background: $white url('../images/content/paper-bg.png') repeat;
+	background: $white url('../images/content/scratches-bg.png') repeat;
 	margin: 0 auto;
 	color: darken($black, 0.9);
 	font-size: 24px;
 	@include font-stack-body;
-	cursor: default;
+	//cursor: default;
 }
 
 #{headings()} {

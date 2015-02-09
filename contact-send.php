@@ -1,3 +1,11 @@
+<?php
+
+	/*
+		Template Name: Contact-Send
+	*/
+
+?>
+
 <?php include("parts/doctype.php"); ?>
 
 	<body>
@@ -20,7 +28,21 @@
 				<div class="cont-about">
 					<div class="wrapper">
 						<div class="thoughts">
-							<p>I'm an aspiring Front End Developer who finds great satisfaction converting ideas into a reality!  I make an effort to develop clean, well-thought, and nicely structured code.  I enjoy working with HTML5, CSS3, Wordpress, and a little bit of JavaScript.</p>
+						<?php
+							$first_name = $_POST[ 'first_name' ];
+							$last_name = $_POST[ 'last_name' ];
+							$email = $_POST[ 'email' ];
+							$message = $_POST[ 'message' ];
+
+							$to = 'j.c.searson@gmail.com';
+							$subject = 'New Submission - Contact Form - MovieWake';
+
+							mail ($to, $subject, $message, "From: " . $first_name . ' ' . $last_name);
+								
+							$thanks = "Thank you for your message $first_name,  I will be sure to get back to you as soon as possible!";
+							$thanks .= "<br><br>";			
+						?>
+							<p class="contact-submission-confirmation"><?php echo $thanks; ?></p>
 						</div>
 					</div>
 					<div class="wrapper">
@@ -74,7 +96,7 @@
 						</a>
 						<p>Design, HTML5, CSS3, Responsive, Wordpress</p>
 						<div class="offset-button">
-							<a href="portfolio.php">About</a>
+							<a href="#">About</a>
 						</div>
 					</div>  <!-- .recent-item -->
 				</article>  <!-- .work -->
@@ -93,7 +115,7 @@
 						</a>
 						<p>Design, HTML5, CSS3, jQuery, Responsive, PHP, MySQL, Wordpress</p>
 						<div class="offset-button">
-							<a href="portfolio.php">About</a>
+							<a href="#">About</a>
 						</div>
 					</div>  <!-- .recent-item -->
 				</article>  <!-- .project -->
@@ -107,20 +129,20 @@
 					<h1>Latest Posts:</h1>
 				</div>
 					<div class="blog-post">
-						<a href="single-post.php">How Can Cache Affect You?</a>
+						<h2>How Can Cache Affect You?</h2>
 						<p>Recently I got Premium WordPress Hosting with MediaTemple.  I have been working on a site for several months now and decided that I would need to have a host that could be more accessible to me in my times of need.  I use WebHosting For Students for my portfolio and have no complaints but I felt that MediaTemple would be better suited to a site which I expect to experience far greater traffic. [...]</p>
 						<div class="blog-post-meta">
-							<a href="single-post.php">
+							<a href="#">
 								<h5>( Read On... )</h5>
 							</a>
 							<h3>January 14, 2015</h3>
 						</div>
 					</div>
 					<div class="blog-post">
-						<a href="single-post.php">Learning Github</a>
+						<h2>Learning Github</h2>
 						<p>I recently made it my goal to set some time aside and dive into the underbelly of GitHub, something I have been avoiding for the past few months.  I have been reading up in the forums as well as a great video series called GitHub for Web Designers by James Williamson. The following is just a brief outline of some of the things I found helpful along the way. [...]</p>
 						<div class="blog-post-meta">
-							<a href="single-post.php">
+							<a href="#">
 								<h5>( Read On... )</h5>
 							</a>
 							<h3>December 12, 2014</h3>

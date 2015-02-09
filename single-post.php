@@ -56,78 +56,39 @@
 				</div>  <!-- .cont-about -->
 			</section>  <!-- .about-container -->
 
-
-
-			<section class="portfolio-wrap">
-				<article class="work">
-					<div class="wrapper">
-						<h2>Recent Work:</h2>
-					</div>
-					<div class="recent-item">
-						<a href="http://www.drstevencaplan.com/">
-							<div class="recent-work">
-								<div class="img-layer">
-									<span>DrStevenCaplan.com</span>
-									<span>(Visit Site)</span>
-								</div> <!-- .img-layer -->
-							</div>  <!-- .recent-work -->
-						</a>
-						<p>Design, HTML5, CSS3, Responsive, Wordpress</p>
-						<div class="offset-button">
-							<a href="portfolio.php">About</a>
-						</div>
-					</div>  <!-- .recent-item -->
-				</article>  <!-- .work -->
-				<article class="project">
-					<div class="wrapper">
-						<h2>Recent Project:</h2>
-					</div>
-					<div class="recent-item">
-						<a href="http://moviewake.com/">
-							<div class="recent-work">
-								<div class="img-layer">
-									<span>MovieWake.com</span>
-									<span>(Visit Site)</span>
-								</div>  <!-- .img-layer -->
-							</div>
-						</a>
-						<p>Design, HTML5, CSS3, jQuery, Responsive, PHP, MySQL, Wordpress</p>
-						<div class="offset-button">
-							<a href="portfolio.php">About</a>
-						</div>
-					</div>  <!-- .recent-item -->
-				</article>  <!-- .project -->
-			</section>  <!-- portfolio-wrap -->
-
-
-
-			<div class="blog">
-				<div class="blog-post-wrap">
-				<div class="wrapper">
-					<h1>Latest Posts:</h1>
+			
+			
+			<div class="blog-post-container">
+				<div class="blog-title">
+					<h2>Helpful Things to know about Contact Forms</h2>
+					<h3>February 3, 2015</h3>
 				</div>
-					<div class="blog-post">
-						<a href="single-post.php">How Can Cache Affect You?</a>
-						<p>Recently I got Premium WordPress Hosting with MediaTemple.  I have been working on a site for several months now and decided that I would need to have a host that could be more accessible to me in my times of need.  I use WebHosting For Students for my portfolio and have no complaints but I felt that MediaTemple would be better suited to a site which I expect to experience far greater traffic. [...]</p>
-						<div class="blog-post-meta">
-							<a href="single-post.php">
-								<h5>( Read On... )</h5>
-							</a>
-							<h3>January 14, 2015</h3>
-						</div>
-					</div>
-					<div class="blog-post">
-						<a href="single-post.php">Learning Github</a>
-						<p>I recently made it my goal to set some time aside and dive into the underbelly of GitHub, something I have been avoiding for the past few months.  I have been reading up in the forums as well as a great video series called GitHub for Web Designers by James Williamson. The following is just a brief outline of some of the things I found helpful along the way. [...]</p>
-						<div class="blog-post-meta">
-							<a href="single-post.php">
-								<h5>( Read On... )</h5>
-							</a>
-							<h3>December 12, 2014</h3>
-						</div>  <!-- .blog-post-meta -->
-					</div>  <!-- .blog-post -->
-				</div>  <!-- .blog-post-wrap -->
-			</div>  <!-- .blog -->
+				<div class="single-blog-post">
+					<p>I was redesigning the contact portion of my portfolio site today, and as per usual spent quite a bit of time googling and searching things to get the form jusssst right.  Here are a few of the things I incorporated into the final product:</p>
+					<h3>1.  Placeholder Text</h3>
+					<p>It’s fairly simple to add placeholder text to all inputs / textarea parts of your form.  Simply add something like this to your input tags:</p>
+					<blockquote>placeholder=”Sample Text Here”</blockquote>
+					<p>What I ended up playing around with for a little while however was the effects you can use with this text. First and foremost, you can play with the styles in your css file by using something like in this example:</p>
+					<blockquote>
+						input::-webkit-input-placeholder {
+							color: #ABABAB;
+							font-size: 16px;
+							padding: 5px 0 0 10px;
+						}
+					</blockquote>
+					<p>What really bothers me about web forms is when the placeholder text does not disappear after clicking on the input or textarea.  Having the text remain until a person begins to type may cause confusion in someone who is not as familiar with using the web (e.g. the elderly).  So how did I do it?</p>
+					<blockquote>
+						input:focus::-webkit-input-placeholder {
+							opacity: 0;
+							transition: opacity 0.2s 0.2s linear;
+						}
+					</blockquote>
+					<p>The transition property in the above code was something I picked up from this <a href="http://css-tricks.com/hang-on-placeholders/">post</a> by Chris Coyier and I think it is a fair compromise.  The text doesn’t disappear immediately upon clicking, but also will not remain their waiting for the visitor to begin typing.</p>
+					<h3>2. The Submit Button</h3>
+					<p>The standard submit button is rather ugly and comes with all these pre-supplied styles attached to it.  This is related to one such method of creating a button, which would involve using an input field and then attempting to style through it.  I did not like this method for the reason above and decided to go an alternative route.  The button tags!</p>
+					<p>Along with what I believe is a more accessible method for styling, I now can also use an <strong>SVG</strong> icon in place of the boring and unappealing “Submit” text that we have grown so accustomed to seeing.  Assign a class to your button, use the background css property to call for your icon, and then style away.</p>
+				</div>
+			</div>
 
 
 
