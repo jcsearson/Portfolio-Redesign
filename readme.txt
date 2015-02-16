@@ -12,7 +12,7 @@ JavaScript and other js files in js/main were linted, minified, and combined int
 This theme is not yet licensed.
 
 #SVG Icons - Author Credits
-	Facebook Icon 
+	Facebook Icon
 		Icons made by Alessio Atzeni from www.flaticon.com is licensed by CC BY 3.0
 	LinkedIn Icon
 		Icons made by Alessio Atzeni from www.flaticon.com is licensed by CC BY 3.0
@@ -24,3 +24,9 @@ This theme is not yet licensed.
 		Icons made by Freepik from www.flaticon.com is licensed by CC BY 3.0
 	Send Icon
 		Icons made by Google from www.flaticon.com is licensed by CC BY 3.0
+	Arrow Icon
+		Icons made by Appzgear from www.flaticon.com is licensed by CC BY 3.0
+	Bubble
+		Icons made by Bogdanspn from www.flaticon.com is licensed by CC BY 3.0
+	Message
+		Icons made by Freepik from www.flaticon.com is licensed by CC BY 3.0

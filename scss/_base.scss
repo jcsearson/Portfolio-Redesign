@@ -6,7 +6,7 @@
 }
 
 body {
-	background: $white url('../images/content/scratches-bg.png') repeat;
+	background: $strongblue;
 	margin: 0 auto;
 	color: darken($black, 0.9);
 	font-size: 24px;
@@ -18,7 +18,7 @@ body {
 	line-height: 1.5;
 	font-weight: 300;
 	font-size: 32px;
-	@include font-stack-header;
+	@include font-stack-body;
 	padding: 5px 10px;
 	color: $black;
 }
