@@ -41,7 +41,8 @@
 				font-size: 36px;
 			}
 			@include bp(mercury) {
-				margin: 15px 0 0 15px;
+				font-size: 32px;
+				margin: 15px 0 0 5px;
 			}
 		}
 	}
@@ -346,6 +347,79 @@ ul {
 
 .wrapper {
 	display: inline-block;
+}
+
+.biography-outer-wrap {
+	padding: 100px 0;
+	background: $mblack;
+	@include clearfix;
+	@include bp(earth) {
+		padding: 50px 0;
+	}
+	h2 {
+		font-size: 40px;
+		text-align: center;
+		color: $morange;
+		@include font-stack-brand;
+	}
+	p {
+		text-align: center;
+		color: $white;
+		@include font-stack-brand;
+		@include bp(earth) {
+			font-size: 18px;
+		}
+	}
+	.biography-inner-wrap {
+		max-width: 1280px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		.history-wrap {
+			width: 30%;
+			margin: 0 2.5%;
+			line-height: 1.2;
+			float: left;
+			@include bp(earth) {
+				width: 90%;
+				margin: 0 5%;
+			}
+		}
+		.tools-wrap {
+			width: 30%;
+			margin: 0 2.5% 0 0;
+			line-height: 1.2;
+			float: left;
+			@include bp(earth) {
+				width: 90%;
+				margin: 0 5%;
+			}
+		}
+		.other-likes-wrap {
+			width: 30%;
+			margin: 0 2.5% 0 0;
+			line-height: 1.2;
+			float: left;
+			@include bp(earth) {
+				width: 90%;
+				margin: 0 5%;
+			}
+		}
+		.bio-icon-wrap {
+			text-align: center;
+			margin: 25px auto;
+			@include bp(earth) {
+				margin: 25px auto 0 auto;
+			}
+			.bio-icon {
+				width: 150px;
+				fill: $morange;
+				@include bp(earth) {
+					width: 75px;
+				}
+			}
+		}
+	}
 }
 
 .portfolio-wrap {
@@ -1033,6 +1107,41 @@ footer {
 			}
 			@include bp(earth) {
 				display: none;
+			}
+		}
+	}
+}
+
+.main-container {
+	.landing-error {
+		background: $mblack;
+		.wrong-page {
+			width: 100%;
+			text-align: center;
+			h2 {
+				color: $gold;
+				font-size: 48px;
+				padding: 25px 0;
+				margin: 0 10px;
+				display: inline-block;
+				border-bottom: 2px dotted $gold;
+				@include font-stack-header;
+				@include bp(earth) {
+					font-size: 24px;
+				}
+			}
+			p {
+				color: $gold;
+				margin: 25px;
+				@include font-stack-body;
+				@include bp(earth) {
+					font-size: 16px;
+				}
+			}
+			.lost-icon {
+				width: 50%;
+				margin: 0 25%;
+				padding: 50px 0;
 			}
 		}
 	}
