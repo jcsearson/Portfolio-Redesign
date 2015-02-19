@@ -206,6 +206,5 @@
 
 
 			<?php include("parts/footer.php"); ?>
-		</div>  <!-- .main-container -->
 	</body>
 </html>

@@ -30,3 +30,11 @@ This theme is not yet licensed.
 		Icons made by Bogdanspn from www.flaticon.com is licensed by CC BY 3.0
 	Message
 		Icons made by Freepik from www.flaticon.com is licensed by CC BY 3.0
+	Movie
+		Icons made by Google from www.flaticon.com is licensed by CC BY 3.0
+	Code
+		Icons made by Freepik from www.flaticon.com is licensed by CC BY 3.0
+	Math
+		Icons made by Freepik from www.flaticon.com is licensed by CC BY 3.0
+	Apple Desktop and Laptop
+		By Pierre Borodin

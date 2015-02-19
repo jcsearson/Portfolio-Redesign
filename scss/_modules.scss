@@ -276,8 +276,11 @@ ul {
 			text-align: center;
 		}
 		.recent-work {
-			background: url('../images/content/sanaii.png') no-repeat;
+			background: url('../images/content/sanaii-desktop.png') no-repeat;
 			background-size: cover;
+			@include bp(neptune) {
+				background: url('../images/content/sanaii-laptop.png') no-repeat;
+			}
 		}
 		.wrapper {
 			width: 100%;
@@ -315,8 +318,11 @@ ul {
 			//border-top: 2px solid $blue;
 		}
 		.recent-work {
-			background: url('../images/content/moviewake.png') no-repeat;
+			background: url('../images/content/moviewake-desktop.png') no-repeat;
 			background-size: cover;
+			@include bp(neptune) {
+				background: url('../images/content/moviewake-laptop.png') no-repeat;
+			}
 		}
 		p {
 			padding: 0 0 75px 0;
@@ -330,18 +336,6 @@ ul {
 	}
 	.project:hover .wrapper h2, .project:focus .wrapper h2 {
 		//box-shadow: 0 0 5px 0;
-	}
-}
-
-.arrow-down {
-	.arrow-icon {
-		fill: $blue;
-		width: 100px;
-		height: 100px;
-		@include bp(venus) {
-			width: 50px;
-			height: 50px;
-		}
 	}
 }
 
@@ -367,22 +361,22 @@ ul {
 		color: $white;
 		@include font-stack-brand;
 		@include bp(earth) {
-			font-size: 18px;
+
 		}
 	}
 	.biography-inner-wrap {
 		max-width: 1280px;
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 50px auto;
 		.history-wrap {
 			width: 30%;
 			margin: 0 2.5%;
 			line-height: 1.2;
 			float: left;
 			@include bp(earth) {
-				width: 90%;
-				margin: 0 5%;
+				width: 85%;
+				margin: 0 7.5%;
+				font-size: 18px;
 			}
 		}
 		.tools-wrap {
@@ -391,8 +385,9 @@ ul {
 			line-height: 1.2;
 			float: left;
 			@include bp(earth) {
-				width: 90%;
-				margin: 0 5%;
+				width: 85%;
+				margin: 0 7.5%;
+				font-size: 18px;
 			}
 		}
 		.other-likes-wrap {
@@ -401,8 +396,9 @@ ul {
 			line-height: 1.2;
 			float: left;
 			@include bp(earth) {
-				width: 90%;
-				margin: 0 5%;
+				width: 85%;
+				margin: 0 7.5%;
+				font-size: 18px;
 			}
 		}
 		.bio-icon-wrap {
@@ -410,6 +406,7 @@ ul {
 			margin: 25px auto;
 			@include bp(earth) {
 				margin: 25px auto 0 auto;
+				font-size: 18px;
 			}
 			.bio-icon {
 				width: 150px;
@@ -461,14 +458,14 @@ ul {
 
 .work-description {
 	width: 50%;
-	padding: 175px 50px;
+	padding: 135px 50px;
 	line-height: 1.2;
 	float: right;
 	@include bp(neptune) {
 		padding: 100px 50px;
 	}
 	@include bp(earth) {
-		padding: 50px;
+		padding: 100px 50px;
 		font-size: 20px;
 	}
 	@include bp(venus) {
@@ -480,7 +477,7 @@ ul {
 
 .project-description {
 	width: 50%;
-	padding: 175px 50px;
+	padding: 135px 50px;
 	line-height: 1.2;
 	float: left;
 	@include bp(neptune) {
@@ -517,82 +514,28 @@ ul {
 
 .recent-item {
 	position: relative;
-	//box-shadow: 0 0 2px 0;
 	width: 50%;
-	margin: 5% 0;
+	margin: 5% auto;
 	float: left;
-	//background: darken($white, 2);
+	@include bp(neptune) {
+		padding: 75px 0 0 0;
+	}
 	@include bp(venus) {
 		width: 100%;
 		margin: 0;
 	}
 	a {
-		padding: 0 5% 0 0;
+		padding: 0 0 0 0;
 		.recent-work {
 			z-index: -50;
 			display: block;
 			margin: 0 auto;
 			cursor: default;
-			width: 400px;
-			height: 400px;
-			border: 5px solid $black;
+			max-width: 500px;
+			height: 425px;
 			@include bp(neptune) {
-				height: 350px;
+				height: 200px;
 				width: 350px;
-			}
-			@include bp(earth) {
-				height: 250px;
-				width: 250px;
-			}
-			@include bp(mercury) {
-				height: 225px;
-				width: 225px;
-			}
-			.img-layer {
-				left: 0;
-				top: 0;
-				width: 100%;
-				height: 100%;
-				z-index: 50;
-				display: inline-block;
-				background-color: darken(rgba(112, 130, 132, .8), 30%);
-				opacity: 0;
-				@include bp(mercury) {
-					opacity: 1;
-				}
-				> span {
-					padding: 10px 0 0 0;
-					margin: 40% 0 0 0;
-					font-weight: 700;
-					font-size: 32px;
-					color: $blue;
-					background: rgba(248, 248, 248, .6);
-					display: block;
-					text-align: center;
-					@include bp(neptune) {
-						font-size: 20px;
-						margin: 35% 0 0 0;
-					}
-					&:last-child {
-						padding: 10px 0;
-						margin: 0;
-						font-size: 24px;
-						@include bp(neptune) {
-							font-size: 16px;
-						}
-					}
-				}
-			}
-		}
-		.recent-work:hover, .recent-work:focus {
-			border: 5px solid $black;
-		}
-		.recent-work:hover .img-layer, .recent-work:focus .img-layer {
-			opacity: 1;
-			transition: opacity .25s ease;
-			cursor: pointer;
-			@include bp(mercury) {
-				opacity: 1;
 			}
 		}
 	}
@@ -600,9 +543,8 @@ ul {
 		cursor: default;
 	}
 	p {
-		margin-top: 25px;
 		width: 70%;
-		margin: 25px 15% 0 15%;
+		margin: 15px 15% 0 15%;
 		line-height: 1.2;
 		font-size: 20px;
 		color: $gray!important;
@@ -615,7 +557,7 @@ ul {
 	width: 100%;
 	padding: 50px 0 100px 0;
 	@include bp(earth) {
-		padding: 50px 0;
+		padding: 25px 0;
 	}
 	.blog-post-wrap {
 		max-width: 1280px;
