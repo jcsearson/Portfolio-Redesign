@@ -918,15 +918,14 @@ ul {
 }
 
 .rocket-ship {
-	position: relative;
-	bottom: 25px;
+	position: fixed;
+	bottom: 50px;
 	right: 25px;
 	float: right;
-	@include bp(earth) {
-
+	@include bp(pluto) {
+		position: relative;
 	}
 	.jump-top-assistant {
-		//position: fixed;
 		height: 100px;
 		fill: $morange;
 		cursor: pointer;
