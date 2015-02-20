@@ -7,6 +7,7 @@
 
 
 		<div class="head-container">
+		<a id="jump-up"></a>
 				<div class="head-wrap">
 					<?php include("parts/header.php"); ?>
 
@@ -25,6 +26,7 @@
 				</div>  <!-- .cont-about -->
 			</section>  <!-- .about-container -->
 
+			<a id="about-me-jump"></a>
 			<div class="biography-outer-wrap">
 				<div class="biography-intro">
 					<h2>About Me</h2>
@@ -50,6 +52,7 @@
 				</div>
 			</div>
 
+			<a id="portfolio-jump"></a>
 			<section class="portfolio-wrap">
 				<h2>Recent Work</h2>
 				<p>An example of my most recent work.</p>
@@ -85,8 +88,8 @@
 			</section>  <!-- portfolio-wrap -->
 
 
-
 			<div class="blog">
+				<a id="blog-jump"></a>
 				<div class="blog-post-wrap">
 					<div class="wrapper">
 						<h1>Blog</h1>
@@ -95,7 +98,7 @@
 					<div class="blog-post">
 						<div class="blog-head-banner">
 							<a class="name-post-blog" href="single-post.php">Some Handy Code Pieces</a>
-							<a class="blog-post-reply-count" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><g><path d="M47.964 8.127H16.036c-4.4 0-8 3.6-8 8v20.977c0 4.4 3.6 8 8 8h7.397v10.768l13.333-10.768h11.197c4.4 0 8-3.6 8-8V16.127 C55.964 11.7 52.4 8.1 48 8.127z M50.964 37.104c0 1.626-1.374 3-3 3H36.767H35l-1.375 1.11l-5.191 4.193v-0.303v-5h-5 h-7.397c-1.626 0-3-1.374-3-3V16.127c0-1.626 1.374-3 3-3h31.928c1.626 0 3 1.4 3 3V37.104z"/><circle cx="21.7" cy="26.6" r="2.9"/><circle cx="32" cy="26.6" r="2.9"/><circle cx="42.3" cy="26.6" r="2.9"/></g></svg></a>
+							<a class="blog-post-reply-count" href="#"><p>12</p><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><g><path d="M47.964 8.127H16.036c-4.4 0-8 3.6-8 8v20.977c0 4.4 3.6 8 8 8h7.397v10.768l13.333-10.768h11.197c4.4 0 8-3.6 8-8V16.127 C55.964 11.7 52.4 8.1 48 8.127z M50.964 37.104c0 1.626-1.374 3-3 3H36.767H35l-1.375 1.11l-5.191 4.193v-0.303v-5h-5 h-7.397c-1.626 0-3-1.374-3-3V16.127c0-1.626 1.374-3 3-3h31.928c1.626 0 3 1.4 3 3V37.104z"/><circle cx="21.7" cy="26.6" r="2.9"/><circle cx="32" cy="26.6" r="2.9"/><circle cx="42.3" cy="26.6" r="2.9"/></g></svg></a>
 						</div>
 						<p>Recently I got Premium WordPress Hosting with MediaTemple.  I have been working on a site for several months now and decided that I would need to have a host that could be more accessible to me in my times of need.  I use WebHosting For Students for my portfolio and have no complaints but I felt that MediaTemple would be better suited to a site which I expect to experience far greater traffic. [...]</p>
 						<div class="blog-post-meta">
@@ -108,7 +111,7 @@
 					<div class="blog-post">
 						<div class="blog-head-banner">
 							<a class="name-post-blog" href="single-post.php">How Can Cache Affect You?</a>
-							<a class="blog-post-reply-count" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><g><path d="M47.964 8.127H16.036c-4.4 0-8 3.6-8 8v20.977c0 4.4 3.6 8 8 8h7.397v10.768l13.333-10.768h11.197c4.4 0 8-3.6 8-8V16.127 C55.964 11.7 52.4 8.1 48 8.127z M50.964 37.104c0 1.626-1.374 3-3 3H36.767H35l-1.375 1.11l-5.191 4.193v-0.303v-5h-5 h-7.397c-1.626 0-3-1.374-3-3V16.127c0-1.626 1.374-3 3-3h31.928c1.626 0 3 1.4 3 3V37.104z"/><circle cx="21.7" cy="26.6" r="2.9"/><circle cx="32" cy="26.6" r="2.9"/><circle cx="42.3" cy="26.6" r="2.9"/></g></svg></a>
+							<a class="blog-post-reply-count" href="#"><p>0</p><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><g><path d="M47.964 8.127H16.036c-4.4 0-8 3.6-8 8v20.977c0 4.4 3.6 8 8 8h7.397v10.768l13.333-10.768h11.197c4.4 0 8-3.6 8-8V16.127 C55.964 11.7 52.4 8.1 48 8.127z M50.964 37.104c0 1.626-1.374 3-3 3H36.767H35l-1.375 1.11l-5.191 4.193v-0.303v-5h-5 h-7.397c-1.626 0-3-1.374-3-3V16.127c0-1.626 1.374-3 3-3h31.928c1.626 0 3 1.4 3 3V37.104z"/><circle cx="21.7" cy="26.6" r="2.9"/><circle cx="32" cy="26.6" r="2.9"/><circle cx="42.3" cy="26.6" r="2.9"/></g></svg></a>
 						</div>
 						<p>I recently made it my goal to set some time aside and dive into the underbelly of GitHub, something I have been avoiding for the past few months.  I have been reading up in the forums as well as a great video series called GitHub for Web Designers by James Williamson. The following is just a brief outline of some of the things I found helpful along the way. [...]</p>
 						<div class="blog-post-meta">
@@ -122,8 +125,8 @@
 			</div>  <!-- .blog -->
 
 
-
 			<section class="contact-form">
+				<a id="contact-me-jump"></a>
 				<h2 class="strikethrough contact-heading"><span>Contact Me</span></h2>
 				<div class="contact-form-wrapper">
 					<form id="form1" name="form1" class="input-contact" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="contact-send.php">
@@ -216,7 +219,11 @@
 						</li>  <!-- .foot-list-item -->
 					</ul>  <!-- .foot-social -->
 				</div>  <!-- .my-social -->
+				<a href="#jump-up" class="rocket-ship">
+					<svg version="1.1" class="jump-top-assistant" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="60.8 151 249.3 491" enable-background="new 60.8 151 249.3 491" xml:space="preserve"><g><path d="M235,234.1H133.7c11.9-50.6,30.2-83.1,50.7-83.1C204.9,151,223.2,183.5,235,234.1L235,234.1z M171.6,522.4c0,0-43,56.1,8.4,119.6c0,0-23.2-52.9,3-71.1c0,0,22.1-7.4,23.8,15.1c0,0,18.2-35.5,0-63.6L171.6,522.4L171.6,522.4z M287.6,427.3c-10.6-18.3-23.5-33.5-36.9-44.6c0.8-11.4,1.2-23.1,1.2-35.2c0-12.9-0.5-25.4-1.5-37.5c-2.8,2.7-6.5,4.3-10.7,4.3c-8.5,0-15.4-6.9-15.4-15.4v-16.8c0-8.5,6.9-15.4,15.4-15.4c1.9,0,3.7,0.4,5.4,1c-1.6-8.8-3.4-17.3-5.4-25.3H131.4c-7.6,29.7-12.2,66-12.2,105.1c0,12,0.4,23.7,1.2,35C107,393.7,94.1,409,83.4,427.3c-28.5,48.8-30.2,100.9-3.8,116.3l52.2-89.4c6.6,25.2,17.5,45.6,28.6,58.8h50.4c11-13.2,21.9-33.4,28.5-58.5l52,89.1C317.8,528.2,316.1,476.1,287.6,427.3L287.6,427.3z"/></g></svg>
+				</a>
 			</section>  <!-- .contact-form -->
+
 
 
 			<?php include("parts/footer.php"); ?>

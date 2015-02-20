@@ -47,7 +47,7 @@
 		}
 	}
 	.menu {
-		width: 50%;
+		width: 55%;
 		float: right;
 		@include bp(neptune) {
 			display: inline-block;
@@ -55,7 +55,7 @@
 		}
 		.nav-list {  //ul.active
 			display: inline-block;
-			padding: 12px 25px 0 0;
+			padding: 12px 0 0 0;
 			float: right;
 
 			@include bp(neptune) {
@@ -600,7 +600,7 @@ ul {
 			}
 			.blog-head-banner {
 				width: 100%;
-				padding: 5px 10px 0 10px;
+				padding: 5px 10px;
 				margin: 15px 0;
 				display: block;
 				border-top: 2px solid lighten($gray, 10);
@@ -612,7 +612,8 @@ ul {
 					font-size: 32px;
 					font-weight: 700;
 					float: left;
-					width: 85%;
+					display: inline-block;
+					width: 80%;
 					@include font-stack-body;
 					@include bp(venus) {
 						font-size: 24px;
@@ -625,22 +626,36 @@ ul {
 				.blog-post-reply-count {
 					float: right;
 					text-align: right;
+					display: inline;
 					line-height: 1;
-					width: 10%;
+					width: 20%;
 					@include font-stack-body;
+					> p {
+						display: inline-block;
+						color: $blue;
+						float: right;
+						padding: 0;
+						font-size: 20px;
+					}
 					> svg {
 						fill: $blue;
 						height: 35px;
 						width: 35px;
-						display: inline;
+						display: inline-block;
+						float: right;
 						@include bp(venus) {
 							height: 30px;
 							width: 30px;
 						}
-						&:hover, &:focus {
-							fill: $black;
-							transition: .15s fill linear;
-						}
+					}
+					&:hover p,
+					&:focus p,
+					&:hover svg,
+					&:focus svg {
+						fill: $black;
+						transition: .15s fill linear;
+						color: $black;
+						transition: .15s color linear;
 					}
 				}
 			}
@@ -663,6 +678,10 @@ ul {
 					float: left;
 					h5 {
 						color: $blue;
+						&:hover, &:focus {
+							color: $black;
+							transition: .15s color linear;
+						}
 					}
 				}
 				h3 {
@@ -894,6 +913,29 @@ ul {
 					}
 				}
 			}
+		}
+	}
+}
+
+.rocket-ship {
+	position: relative;
+	bottom: 25px;
+	right: 25px;
+	float: right;
+	@include bp(earth) {
+
+	}
+	.jump-top-assistant {
+		//position: fixed;
+		height: 100px;
+		fill: $morange;
+		cursor: pointer;
+		@include bp(earth) {
+			height: 50px;
+		}
+		&:hover, &:focus {
+			fill: $red;
+			transition: .25s fill linear;
 		}
 	}
 }

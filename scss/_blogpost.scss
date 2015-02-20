@@ -210,7 +210,7 @@
 		border-top: 1px solid $gray;
 		> span {
 			font-size: 18px;
-			color: $mediumgray;
+			color: darken($gray, 5);
 			@include font-stack-brand;
 		}
 		a {
@@ -243,35 +243,33 @@
 	}
 	.blog-title {
 		display: block;
+		padding: 0 50px;
+		@include bp(earth) {
+			padding: 0 10px;
+		}
 		h2 {
 			font-size: 64px;
-			padding: 25px 50px 0 50px;
+			padding: 25px 10px 0 10px;
 			font-weight: 700;
 			line-height: 1;
-			//border-bottom: 1px solid $gray;
 			text-align: left;
 			display: inline-block;
 			@include font-stack-brand;
 			@include bp(earth) {
 				font-size: 36px;
-				padding: 15px 10px;
-				line-height: 1;
 			}
 		}
 		h3 {
-			color: darken($gray, 20);
+			color: darken($gray, 5);
 			font-size: 20px;
-			padding: 0 0 0 50px;
+			padding: 0 10px;
+			line-height: 1;
 			font-style: italic;
 			text-align: left;
 			@include font-stack-brand;
 			@include bp(earth) {
 				font-size: 16px;
-				line-height: 1;
-				padding: 5px 0;
-				margin: 0 20px;
-				text-align: center;
-				border-top: 1px dotted $gray;
+				//text-align: center;
 			}
 		}
 	}
