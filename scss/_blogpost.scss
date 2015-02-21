@@ -158,6 +158,16 @@
 			}
 		}
 	}
+	blockquote {
+		margin: 0 0 0 10px;
+		background: $gray;
+		display: inline-block;
+	}
+	code {
+		font-weight: 700;
+		background: $gray;
+		display: block;
+	}
 	.media-wrap {
 		max-width: 700px;
 		text-align: center;
