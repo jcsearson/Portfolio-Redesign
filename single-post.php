@@ -29,8 +29,9 @@
 
 			<div class="blog-post-container">
 				<div class="blog-title">
-					<h2>Helpful Things to know about Contact Forms</h2>
-					<h3>Published by James Searson on February 3, 2015</h3>
+					<h2 class="blog-post-heading">Helpful Things to know about Contact Forms</h2>
+					<h3 class="blog-post-date">Published by James Searson on February 3, 2015</h3>
+					<img src="images/content/feature-img-v1.jpg" alt="Baltimore in the Morning" class="post-featured-image">
 				</div>  <!-- .blog-title -->
 				<div class="single-blog-post post-styles">
 					<p>I was redesigning the contact portion of my portfolio site today, and as per usual spent quite <em>a bit of time googling and searching things</em> to get the form jusssst right.  Here are a few of the things I incorporated into the final product:</p>
@@ -56,9 +57,9 @@
 					<p>The transition property in the above code was something I picked up from this <a href="http://css-tricks.com/hang-on-placeholders/">post</a> by Chris Coyier and I think it is a fair compromise.  The text doesn’t disappear immediately upon clicking, but also will not remain their waiting for the visitor to begin typing.</p>
 					<h3>2. The Submit Button</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla dignissimos quae exercitationem et, fuga cumque, quas ex libero blanditiis ducimus expedita hic doloribus ea laboriosam quasi quos. Ratione, adipisci suscipit!</p>
-					<img src="images/content/baltimore.jpg" class="aligncenter" alt="">
+					<img src="images/content/feature-img-v2.png" class="aligncenter" alt="">
 					<p>The standard submit button is rather ugly and comes with all these pre-supplied styles attached to it.  This is related to one such method of creating a button, which would involve using an input field and then attempting to style through it.  I did not like this method for the reason above and decided to go an alternative route.  The button tags!</p>
-					<img src="images/content/james.png" class="aligncenter" alt="">
+					<img src="images/content/post-img-v1.png" class="aligncenter" alt="">
 					<p>Along with what I believe is a more accessible method for styling, I now can also use an <strong>SVG</strong> icon in place of the boring and unappealing “Submit” text that we have grown so accustomed to seeing.  Assign a class to your button, use the background css property to call for your icon, and then style away.</p>
 					<p class="media-wrap">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/tymWDB7gtK4" frameborder="0" allowfullscreen></iframe>
@@ -93,8 +94,10 @@
 
 					</div>  <!-- .user-meta-data -->
 					<p>Hey Chris,  <br><br>Just a heads up. I’m not sure where the issue lies but I can’t get the video embed to play in chrome on an iPad. It just doesn’t respond to touch.</p>
-					<a class="comments-reply-link" href="#">Reply</a>
-					<ul class="reply-wrap">
+					<div class="anchor-reply-link">
+						<a class="comments-reply-link" href="#">Reply</a>
+					</div>
+					<ul class="children">
 						<li class="comment-reply">
 							<div class="user-meta-data">
 								<h3>Chris Coyier</h3>
@@ -111,7 +114,7 @@
 							</div>  <!-- .user-meta-data -->
 							<p>Same here. On Safari iPhone 6</p>
 						</li>  <!-- .comment-reply -->
-					</ul>  <!-- .reply-wrap -->
+					</ul>  <!-- .children -->
 				</li>  <!-- .single-comment   .post-styles -->
 				<li class="single-comment post-styles">
 					<div class="user-meta-data">
@@ -120,7 +123,9 @@
 
 					</div>  <!-- .user-meta-data -->
 					<p>You should get posts once, and then split them after so you only have one query :)</p>
-					<a class="comments-reply-link" href="#">Reply</a>
+					<div class="anchor-reply-link">
+						<a class="comments-reply-link" href="#">Reply</a>
+					</div>
 				</li><!-- .single-comment   .post-styles -->
 				<li class="single-comment post-styles">
 					<div class="user-meta-data">
@@ -129,7 +134,9 @@
 
 					</div><!-- .user-meta-data -->
 					<p>ACF is very userful. I don’t live without it in my projects, thanks for video Chris.</p>
-					<a class="comments-reply-link" href="#">Reply</a>
+					<div class="anchor-reply-link">
+						<a class="comments-reply-link" href="#">Reply</a>
+					</div>
 				</li><!-- .single-comment   .post-styles -->
 				<li class="single-comment post-styles">
 					<div class="user-meta-data">
@@ -138,7 +145,9 @@
 
 					</div>  <!-- .user-meta-data -->
 					<p>I like to plugin Types too (<a href="https://wordpress.org/plugins/types/screenshots/">https://wordpress.org/plugins/types/screenshots/</a>). This plugin combine, CTP with Custom Fields.</p>
-					<a class="comments-reply-link" href="#">Reply</a>
+					<div class="anchor-reply-link">
+						<a class="comments-reply-link" href="#">Reply</a>
+					</div>
 				</li>  <!-- .single-comment   .post-styles -->
 			</ul>  <!-- .blog-comment-container -->
 

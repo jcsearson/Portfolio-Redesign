@@ -22,5 +22,4 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="css/style.css">
-		<link href="css/prism.css" rel="stylesheet" />
 	</head>
