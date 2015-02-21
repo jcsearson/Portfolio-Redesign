@@ -34,10 +34,10 @@
 				</div>  <!-- .blog-title -->
 				<div class="single-blog-post post-styles">
 					<p>I was redesigning the contact portion of my portfolio site today, and as per usual spent quite <em>a bit of time googling and searching things</em> to get the form jusssst right.  Here are a few of the things I incorporated into the final product:</p>
-					<h2>1.  Placeholder Text h2</h2>
-					<h3>1.  Placeholder Text h3</h3>
-					<h4>1.  Placeholder Text h4</h4>
-					<h5>1.  Placeholder Text h5</h5>
+					<h2>1.  Placeholder Text (h2)</h2>
+					<h3>1.  Placeholder Text (h3)</h3>
+					<h4>1.  Placeholder Text (h4)</h4>
+					<h5>1.  Placeholder Text (h5)</h5>
 					<p>It’s fairly simple to add placeholder text to all inputs / textarea parts of your form.  Simply add something like this to your input tags:</p>
 					<pre rel="Markdown"><code markup="tt" class="language-markup">&lt;button class="submit" value="submit">
 						&lt;svg>&lt;/svg>
@@ -72,6 +72,7 @@
 						<li>Jupiter</li>
 					</ul>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati animi, iusto alias nesciunt nostrum quae magni molestias dignissimos ad tenetur voluptas at, reiciendis deserunt maxime et similique illum eligendi numquam.</p>
+					<p class="share-blog-post"><a href="#">( Share Post )</a></p>
 				</div>  <!-- .single-blog-post   .post-styles-->
 				<div class="blog-post-footer">
 					<span class="blog-post-meta">
@@ -83,9 +84,9 @@
 				</div>
 			</div>  <!-- .blog-post-container -->
 
-			<div class="blog-comment-container">
+			<ul class="commentlist">
 				<h2 class="strikethrough comment-heading"><span>Comments</span></h2>
-				<div class="single-comment post-styles">
+				<li class="single-comment post-styles">
 					<div class="user-meta-data">
 						<h3>Matt edwards</h3>
 						<h4 class="time-stamp-comment-main">Published:  January 21, 2015</h4>
@@ -93,29 +94,26 @@
 					</div>  <!-- .user-meta-data -->
 					<p>Hey Chris,  <br><br>Just a heads up. I’m not sure where the issue lies but I can’t get the video embed to play in chrome on an iPad. It just doesn’t respond to touch.</p>
 					<a class="comments-reply-link" href="#">Reply</a>
-					<section class="reply-wrap">
-						<div class="comment-reply">
+					<ul class="reply-wrap">
+						<li class="comment-reply">
 							<div class="user-meta-data">
 								<h3>Chris Coyier</h3>
 								<h4>Published:  January 21, 2015</h4>
 
 							</div>  <!-- .user-meta-data -->
 							<p>It’s just a YouTube embed, so I dunno. Do other YouTube embeds work for you? I’m burying this just because it doesn’t have anything to do with the content for this video, but we can keep talking it out if you like.</p>
-						</div>  <!-- .comment-reply -->
-					</section>  <!-- reply-wrap -->
-					<section class="reply-wrap">
-
-						<div class="comment-reply">
+						</li>  <!-- .comment-reply -->
+						<li class="comment-reply">
 							<div class="user-meta-data">
 								<h3>Todd</h3>
 								<h4>Published:  January 27, 2015</h4>
 
 							</div>  <!-- .user-meta-data -->
 							<p>Same here. On Safari iPhone 6</p>
-						</div>  <!-- .comment-reply -->
-					</section>  <!-- .reply-wrap -->
-				</div>  <!-- .single-comment   .post-styles -->
-				<div class="single-comment post-styles">
+						</li>  <!-- .comment-reply -->
+					</ul>  <!-- .reply-wrap -->
+				</li>  <!-- .single-comment   .post-styles -->
+				<li class="single-comment post-styles">
 					<div class="user-meta-data">
 						<h3>shaneisme</h3>
 						<h4>Published:  January 27, 2015</h4>
@@ -123,8 +121,8 @@
 					</div>  <!-- .user-meta-data -->
 					<p>You should get posts once, and then split them after so you only have one query :)</p>
 					<a class="comments-reply-link" href="#">Reply</a>
-				</div><!-- .single-comment   .post-styles -->
-				<div class="single-comment post-styles">
+				</li><!-- .single-comment   .post-styles -->
+				<li class="single-comment post-styles">
 					<div class="user-meta-data">
 						<h3>Vitor Melo</h3>
 						<h4>Published:  January 29, 2015</h4>
@@ -132,8 +130,8 @@
 					</div><!-- .user-meta-data -->
 					<p>ACF is very userful. I don’t live without it in my projects, thanks for video Chris.</p>
 					<a class="comments-reply-link" href="#">Reply</a>
-				</div><!-- .single-comment   .post-styles -->
-				<div class="single-comment post-styles">
+				</li><!-- .single-comment   .post-styles -->
+				<li class="single-comment post-styles">
 					<div class="user-meta-data">
 						<h3>Vitor Melo</h3>
 						<h4>Published:  January 29, 2015</h4>
@@ -141,8 +139,8 @@
 					</div>  <!-- .user-meta-data -->
 					<p>I like to plugin Types too (<a href="https://wordpress.org/plugins/types/screenshots/">https://wordpress.org/plugins/types/screenshots/</a>). This plugin combine, CTP with Custom Fields.</p>
 					<a class="comments-reply-link" href="#">Reply</a>
-				</div>  <!-- .single-comment   .post-styles -->
-			</div>  <!-- .blog-comment-container -->
+				</li>  <!-- .single-comment   .post-styles -->
+			</ul>  <!-- .blog-comment-container -->
 
 
 
