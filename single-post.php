@@ -73,7 +73,6 @@
 						<li>Jupiter</li>
 					</ul>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati animi, iusto alias nesciunt nostrum quae magni molestias dignissimos ad tenetur voluptas at, reiciendis deserunt maxime et similique illum eligendi numquam.</p>
-					<p class="share-blog-post"><a href="#">( Share Post )</a></p>
 				</div>  <!-- .single-blog-post   .post-styles-->
 				<div class="blog-post-footer">
 					<span class="blog-post-meta">
