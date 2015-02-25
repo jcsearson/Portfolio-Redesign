@@ -7,7 +7,7 @@
 
 
 		<div class="head-container">
-		<a id="jump-up"></a>
+		<a id="top-page-jump"></a>
 				<div class="head-wrap">
 					<?php include("parts/header.php"); ?>
 
@@ -31,26 +31,26 @@
 				<div class="biography-intro">
 					<h2>About Me</h2>
 					<p>A self-taught web developer living in Baltimore, MD.</p>
-				</div>
+				</div>  <!-- .biography-intro -->
 				<div class="biography-inner-wrap">
 					<div class="history-wrap">
 						<div class="bio-icon-wrap">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="bio-icon" x="0px" y="0px" viewBox="0 0 31.712 31.713" xml:space="preserve"><g><path d="M31.414 9.898l-6.517 6.284l-1.337-1.417l4.932-4.756c0.477-0.46 0.49-1.219 0.03-1.696l-4.403-4.566 c-0.223-0.23-0.523-0.361-0.843-0.366c-0.317-0.007-0.624 0.114-0.854 0.335l-3.887 3.747l3.375 3.5 c0.276 0.3 0.3 0.765-0.035 1.046c-0.203 0.194-0.5 0.255-0.752 0.173l-4.896-5.191l6.406-6.183 c0.389-0.371 1.013-0.35 1.4 0.037l7.405 7.676C31.797 8.9 31.8 9.5 31.4 9.898z M9.29 28.5 c-0.227 0.221-0.535 0.342-0.852 0.334c-0.319-0.006-0.622-0.137-0.844-0.364L3.191 23.93c-0.459-0.477-0.447-1.229 0.03-1.693 l2.025 2.104c0.279 0.3 0.7 0.3 1 0.021s0.295-0.733 0.015-1.023l-2.022-2.107l0.539-0.521l2.025 2.1 c0.277 0.3 0.7 0.3 1 0.021C8.143 22.6 8.2 22.1 7.9 21.809l-2.024-2.101l0.54-0.521l2.023 2.1 c0.279 0.3 0.7 0.3 1 0.021c0.291-0.278 0.296-0.734 0.018-1.025l-2.025-2.102l0.539-0.521l2.025 2.1 c0.278 0.3 0.7 0.3 1 0.021c0.107-0.104 0.177-0.234 0.205-0.368l-3.749-3.98L0.3 22.3 c-0.384 0.373-0.384 0.998-0.013 1.383l7.405 7.681c0.372 0.4 1 0.4 1.4 0.032l7.067-6.812l-1.336-1.417L9.29 28.528z M22.229 9.655c-0.934-0.965-0.906-2.511 0.062-3.442c0.963-0.933 2.508-0.905 3.4 0.061c0.934 1 0.9 2.513-0.062 3.4 C24.707 10.6 23.2 10.6 22.2 9.655z M23.274 8.647c0.376 0.4 1 0.4 1.4 0 c0.387-0.375 0.398-0.997 0.022-1.385c-0.375-0.388-0.997-0.401-1.385-0.026S22.899 8.3 23.3 8.647z M27.207 21.1 l-6.373 6.005L6.631 12.051l6.375-6.005L27.207 21.116z M14.075 10.248c0.003-0.144-0.049-0.286-0.151-0.392L13.23 9.1 c-0.206-0.219-0.553-0.23-0.774-0.023L12.08 9.452c-0.221 0.206-0.23 0.556-0.024 0.774l0.69 0.7 c0.103 0.1 0.2 0.2 0.4 0.171c0.145 0 0.769-0.503 0.769-0.503C14.007 10.5 14.1 10.4 14.1 10.248z M23.941 21.287c0.223-0.208 0.231-0.556 0.022-0.776l-7.979-8.465c-0.1-0.108-0.236-0.17-0.384-0.173 c-0.143-0.005-0.286 0.05-0.391 0.148l-0.377 0.356c-0.221 0.207-0.231 0.553-0.023 0.774l7.978 8.5 c0.104 0.1 0.2 0.2 0.4 0.174c0.146 0 0.287-0.05 0.394-0.15L23.941 21.287z M5.986 11.364l6.373-6.007l-1.646-1.746 L4.341 9.619L5.986 11.364z M1.5 6.601C1.153 6.2 1 5.7 1 5.244c0.016-0.503 0.229-0.977 0.596-1.322l3.612-3.403 c0.76-0.722 1.96-0.685 2.7 0.077l2.239 2.375L3.736 8.976L1.5 6.601z M2.637 5.294l1.17 1.244l3.863-3.64L6.497 1.7 L2.637 5.294z M30.44 29.694c0.109 0.3 0 0.723-0.252 0.971c-0.264 0.249-0.646 0.322-0.983 0.193l-7.564-2.886l6.366-6.007 L30.44 29.694z M28.419 27.1l-0.957-3.039l-3.701 3.491l2.978 1.136L28.419 27.1z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
 						</div>
 						<p>With my strong mathematical and engineering background from Virginia Tech, I can learn new languages and techniques easily.  </p>
-					</div>
+					</div>  <!-- .history-wrap -->
 					<div class="tools-wrap">
 						<div class="bio-icon-wrap">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="bio-icon" x="0px" y="0px" viewBox="0 0 23.303 23.303" xml:space="preserve"><g><path d="M7.131 16.607L0 12.718v-2.154l7.131-3.867v2.53l-4.969 2.387l4.969 2.5 C7.131 14.1 7.1 16.6 7.1 16.607z"/><path d="M8.349 17.968l4.729-12.633h1.494l-4.74 12.633H8.349z"/><path d="M16.172 16.607v-2.516l4.968-2.457l-4.968-2.438v-2.5l7.131 3.872v2.141L16.172 16.607z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
 						</div>
 						<p>I use HTML5, CSS3, JavaScript, jQuery, PHP,  Photoshop, Illustrator, MAMP and Wordpress to design and develop websites.</p>
-					</div>
+					</div>  <!-- .tools-wrap -->
 					<div class="other-likes-wrap">
 						<div class="bio-icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="bio-icon" x="0px" y="0px" viewBox="0 0 459 459" xml:space="preserve"><g><g id="videocam"><path d="M357 191.25V102c0-15.3-10.2-25.5-25.5-25.5h-306C10.2 76.5 0 86.7 0 102v255c0 15.3 10.2 25.5 25.5 25.5h306 c15.3 0 25.5-10.2 25.5-25.5v-89.25l102 102V89.25L357 191.25z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg></div>
 						<p>In my spare time I enjoy watching film, listening to music, reading blogs, and hearing about what's new at conferences.</p>
-					</div>
-				</div>
-			</div>
+					</div>  <!-- .other-likes-wrap -->
+				</div>  <!-- .biography-inner-wrap -->
+			</div>  <!-- .biography-outer-wrap -->
 
 			<a id="portfolio-jump"></a>
 			<section class="portfolio-wrap">
@@ -86,6 +86,13 @@
 					</div>  <!-- .project-description -->
 				</article>  <!-- .project -->
 			</section>  <!-- portfolio-wrap -->
+			<a href="#top-page-jump" class="link-to-top">
+				<section class="jump-top-wrap">
+					<div class="jump-top-outer">
+						<div class="jump-top-inner"></div>
+					</div>
+				</section>
+			</a>
 
 
 			<div class="blog">
@@ -221,8 +228,12 @@
 						</li>  <!-- .foot-list-item -->
 					</ul>  <!-- .foot-social -->
 				</div>  <!-- .my-social -->
-				<a href="#jump-up" class="rocket-ship">
-					<svg version="1.1" class="jump-top-assistant" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="60.8 151 249.3 491" enable-background="new 60.8 151 249.3 491" xml:space="preserve"><g><path d="M235,234.1H133.7c11.9-50.6,30.2-83.1,50.7-83.1C204.9,151,223.2,183.5,235,234.1L235,234.1z M171.6,522.4c0,0-43,56.1,8.4,119.6c0,0-23.2-52.9,3-71.1c0,0,22.1-7.4,23.8,15.1c0,0,18.2-35.5,0-63.6L171.6,522.4L171.6,522.4z M287.6,427.3c-10.6-18.3-23.5-33.5-36.9-44.6c0.8-11.4,1.2-23.1,1.2-35.2c0-12.9-0.5-25.4-1.5-37.5c-2.8,2.7-6.5,4.3-10.7,4.3c-8.5,0-15.4-6.9-15.4-15.4v-16.8c0-8.5,6.9-15.4,15.4-15.4c1.9,0,3.7,0.4,5.4,1c-1.6-8.8-3.4-17.3-5.4-25.3H131.4c-7.6,29.7-12.2,66-12.2,105.1c0,12,0.4,23.7,1.2,35C107,393.7,94.1,409,83.4,427.3c-28.5,48.8-30.2,100.9-3.8,116.3l52.2-89.4c6.6,25.2,17.5,45.6,28.6,58.8h50.4c11-13.2,21.9-33.4,28.5-58.5l52,89.1C317.8,528.2,316.1,476.1,287.6,427.3L287.6,427.3z"/></g></svg>
+				<a href="#top-page-jump" class="link-to-top">
+					<section class="jump-top-wrap">
+						<div class="jump-top-outer">
+							<div class="jump-top-inner"></div>
+						</div>
+					</section>
 				</a>
 			</section>  <!-- .contact-form -->
 

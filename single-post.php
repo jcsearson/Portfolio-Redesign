@@ -58,6 +58,7 @@
 					<h3>2. The Submit Button</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla dignissimos quae exercitationem et, fuga cumque, quas ex libero blanditiis ducimus expedita hic doloribus ea laboriosam quasi quos. Ratione, adipisci suscipit!</p>
 					<img src="images/content/feature-img-v2.png" class="aligncenter" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolorem, doloribus quisquam nam ipsum vitae velit consectetur nobis illum itaque architecto odio cumque. Eius modi dolores, laudantium quos error deserunt!</p>
 					<p>The standard submit button is rather ugly and comes with all these pre-supplied styles attached to it.  This is related to one such method of creating a button, which would involve using an input field and then attempting to style through it.  I did not like this method for the reason above and decided to go an alternative route.  The button tags!</p>
 					<img src="images/content/post-img-v1.png" class="aligncenter" alt="">
 					<p>Along with what I believe is a more accessible method for styling, I now can also use an <strong>SVG</strong> icon in place of the boring and unappealing “Submit” text that we have grown so accustomed to seeing.  Assign a class to your button, use the background css property to call for your icon, and then style away.</p>
@@ -65,6 +66,9 @@
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/tymWDB7gtK4" frameborder="0" allowfullscreen></iframe>
 					</p>  <!-- .media-wrap -->
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nihil cumque asperiores nostrum tempore, quam nemo facilis maiores iusto deserunt eum veniam, possimus assumenda quis natus vitae dolorum et adipisci!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ad, eos odit. Et veniam quos vel ipsum eos eum a molestiae, qui quam, perferendis quas, recusandae mollitia inventore optio quod.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quis molestias esse. Vitae reprehenderit voluptate laudantium provident quasi magni id nulla error ut ipsum, ab, veniam, esse, aliquam tempora pariatur.</p>
+					<p>As a favorite author of mine once said:</p>
+					<blockquote>Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover. –Mark Twain</blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos explicabo suscipit doloremque modi assumenda iusto! Distinctio optio perferendis soluta, omnis perspiciatis impedit fuga possimus, laborum est odit tempora deserunt autem.</p>
 					<ul>
 						<li><a href="#">Mercury</a></li>
 						<li>Venus</li>
@@ -72,8 +76,11 @@
 						<li>Mars</li>
 						<li>Jupiter</li>
 					</ul>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati animi, iusto alias nesciunt nostrum quae magni molestias dignissimos ad tenetur voluptas at, reiciendis deserunt maxime et similique illum eligendi numquam.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati animi, iusto alias nesciunt nostrum quae magni <code>background: url('../images/content/img.jpg') no-repeat;</code> molestias dignissimos ad tenetur voluptas at, reiciendis deserunt maxime et similique illum eligendi numquam.</p>
+					<code>background: rgba( 248, 248, 248, 0.6);</code>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora reprehenderit optio repellendus ut quas totam ipsum nulla ratione culpa, vitae labore rem, pariatur architecto iure quaerat accusamus cum laudantium eum.</p>
 				</div>  <!-- .single-blog-post   .post-styles-->
+
 				<div class="blog-post-footer">
 					<span class="blog-post-meta">
 						<span>Tags: </span>
@@ -84,71 +91,71 @@
 				</div>
 			</div>  <!-- .blog-post-container -->
 
-			<ul class="commentlist">
+			<ol class="commentlist">
 				<h2 class="strikethrough comment-heading"><span>Comments</span></h2>
-				<li class="single-comment post-styles">
+				<li class="comments post-styles">
 					<div class="user-meta-data">
 						<h3>Matt edwards</h3>
-						<h4 class="time-stamp-comment-main">Published:  January 21, 2015</h4>
+						<h4 class="time-stamp-comment-main"><span class="stamp-before">Published:  </span>January 21, 2015</h4>
 
 					</div>  <!-- .user-meta-data -->
 					<p>Hey Chris,  <br><br>Just a heads up. I’m not sure where the issue lies but I can’t get the video embed to play in chrome on an iPad. It just doesn’t respond to touch.</p>
-					<div class="anchor-reply-link">
+					<div class="reply">
 						<a class="comments-reply-link" href="#">Reply</a>
 					</div>
 					<ul class="children">
-						<li class="comment-reply">
+						<li class="comment">
 							<div class="user-meta-data">
 								<h3>Chris Coyier</h3>
-								<h4>Published:  January 21, 2015</h4>
+								<h4><span class="stamp-before">Published:  </span>January 21, 2015</h4>
 
 							</div>  <!-- .user-meta-data -->
 							<p>It’s just a YouTube embed, so I dunno. Do other YouTube embeds work for you? I’m burying this just because it doesn’t have anything to do with the content for this video, but we can keep talking it out if you like.</p>
 						</li>  <!-- .comment-reply -->
-						<li class="comment-reply">
+						<li class="comment">
 							<div class="user-meta-data">
 								<h3>Todd</h3>
-								<h4>Published:  January 27, 2015</h4>
+								<h4><span class="stamp-before">Published:  </span>January 27, 2015</h4>
 
 							</div>  <!-- .user-meta-data -->
 							<p>Same here. On Safari iPhone 6</p>
 						</li>  <!-- .comment-reply -->
 					</ul>  <!-- .children -->
 				</li>  <!-- .single-comment   .post-styles -->
-				<li class="single-comment post-styles">
+				<li class="comments post-styles">
 					<div class="user-meta-data">
 						<h3>shaneisme</h3>
-						<h4>Published:  January 27, 2015</h4>
+						<h4><span class="stamp-before">Published:  </span>January 27, 2015</h4>
 
 					</div>  <!-- .user-meta-data -->
 					<p>You should get posts once, and then split them after so you only have one query :)</p>
-					<div class="anchor-reply-link">
+					<div class="reply">
 						<a class="comments-reply-link" href="#">Reply</a>
 					</div>
 				</li><!-- .single-comment   .post-styles -->
-				<li class="single-comment post-styles">
+				<li class="comments post-styles">
 					<div class="user-meta-data">
 						<h3>Vitor Melo</h3>
-						<h4>Published:  January 29, 2015</h4>
+						<h4><span class="stamp-before">Published:  </span>January 29, 2015</h4>
 
 					</div><!-- .user-meta-data -->
 					<p>ACF is very userful. I don’t live without it in my projects, thanks for video Chris.</p>
-					<div class="anchor-reply-link">
+					<div class="reply">
 						<a class="comments-reply-link" href="#">Reply</a>
 					</div>
 				</li><!-- .single-comment   .post-styles -->
-				<li class="single-comment post-styles">
+				<li class="comments post-styles">
 					<div class="user-meta-data">
 						<h3>Vitor Melo</h3>
-						<h4>Published:  January 29, 2015</h4>
+						<h4><span class="stamp-before">Published:  </span>January 29, 2015</h4>
 
 					</div>  <!-- .user-meta-data -->
 					<p>I like to plugin Types too (<a href="https://wordpress.org/plugins/types/screenshots/">https://wordpress.org/plugins/types/screenshots/</a>). This plugin combine, CTP with Custom Fields.</p>
-					<div class="anchor-reply-link">
+					<div class="reply">
 						<a class="comments-reply-link" href="#">Reply</a>
 					</div>
 				</li>  <!-- .single-comment   .post-styles -->
-			</ul>  <!-- .blog-comment-container -->
+			</ol>  <!-- .blog-comment-container -->
 
 
 

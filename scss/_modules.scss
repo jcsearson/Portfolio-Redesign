@@ -194,7 +194,8 @@ ul {
 		background-size: cover;
 		border-bottom: 3px solid $morange;
 		.tint {
-			background: rgba(26, 26, 26, 0.7);
+			background: rgba(26, 26, 26, 0.2) url('../images/content/code-matrix.png') no-repeat center;
+			background-size: cover;
 		}
 		.cont-about {
 			padding: 50px 0 100px 0;
@@ -424,6 +425,7 @@ ul {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	@include clearfix;
 	h2 {
 		font-size: 40px;
 		margin: 50px 0 0 0;
@@ -556,6 +558,7 @@ ul {
 	float: left;
 	width: 100%;
 	padding: 50px 0 100px 0;
+	@include clearfix;
 	@include bp(earth) {
 		padding: 75px 0;
 	}
@@ -736,7 +739,6 @@ ul {
 }
 
 .contact-form {
-	box-shadow: 0 -1px 20px 0;
 	overflow: hidden;
 	float: left;
 	width: 100%;
@@ -917,24 +919,41 @@ ul {
 	}
 }
 
-.rocket-ship {
-	position: fixed;
-	bottom: 50px;
-	right: 25px;
-	float: right;
-	@include bp(pluto) {
-		position: relative;
-	}
-	.jump-top-assistant {
-		height: 100px;
-		fill: $morange;
-		cursor: pointer;
-		@include bp(earth) {
-			height: 50px;
-		}
-		&:hover, &:focus {
-			fill: $red;
-			transition: .25s fill linear;
+.link-to-top {
+	width: 150px;
+	display: block;
+	margin: 0 auto;
+	.jump-top-wrap {
+		display: inline;
+		.jump-top-outer {
+			position: relative;
+			cursor: pointer;
+			margin: 0 auto;
+
+			width: 0;
+			height: 0;
+			border-left: 77.5px solid transparent;
+			border-right: 77.5px solid transparent;
+			border-bottom: 50px solid $blue;
+			&:hover, &:focus {
+				border-bottom: 50px solid $morange;
+				transition: .25s border linear;
+			}
+			.jump-top-inner {
+				position: absolute;
+				bottom: -50px;
+				left: -70px;
+
+				width: 0;
+				height: 0;
+				border-left: 70px solid transparent;
+				border-right: 70px solid transparent;
+				border-bottom: 45px solid $mblack;
+			}
+			&:hover .jump-top-inner, &:focus .jump-top-inner {
+				border-bottom: 45px solid $mblack;
+				transition: .25s border linear;
+			}
 		}
 	}
 }
