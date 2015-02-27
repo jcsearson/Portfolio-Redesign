@@ -20,17 +20,17 @@
 				<div class="cont-about tint">
 					<div class="wrapper">
 						<div class="thoughts">
-							<p>A front end designer and developer who builds websites on Wordpress.</p>
+							<p></p>
 						</div>  <!-- .thoughts -->
 					</div>  <!-- .wrapper -->
 				</div>  <!-- .cont-about -->
 			</section>  <!-- .about-container -->
 
-			<a id="about-me-jump"></a>
 			<div class="biography-outer-wrap">
+				<a id="about-me-jump"></a>
 				<div class="biography-intro">
 					<h2>About Me</h2>
-					<p>A self-taught web developer living in Baltimore, MD.</p>
+					<p>A front end designer and developer from Baltimore, MD who builds websites on Wordpress.</p>
 				</div>  <!-- .biography-intro -->
 				<div class="biography-inner-wrap">
 					<div class="history-wrap">
@@ -52,10 +52,9 @@
 				</div>  <!-- .biography-inner-wrap -->
 			</div>  <!-- .biography-outer-wrap -->
 
-			<a id="portfolio-jump"></a>
 			<section class="portfolio-wrap">
+				<a id="portfolio-jump"></a>
 				<h2>Recent Work</h2>
-				<p>An example of my most recent work.</p>
 				<article class="work">
 					<div class="recent-item">
 						<a href="http://www.drstevencaplan.com/">
@@ -69,7 +68,6 @@
 					</div>  <!-- .work-description -->
 				</article>  <!-- .work -->
 				<h2>Recent Project</h2>
-				<p>An example of my most recent personal project.</p>
 				<article class="project">
 					<div class="project-description">
 						<p>MovieWake.com was a personal project of mine where I was able to demonstrate my ability to start with an idea, create a design, and then develop both the front and back end code to implement the site.  The premise for the site was to have a place where I can store a list of all the films I have watched which are not as well known to most people.</p>
@@ -99,8 +97,7 @@
 				<a id="blog-jump"></a>
 				<div class="blog-post-wrap">
 					<div class="wrapper">
-						<h1>Blog</h1>
-						<p>Read what I have been talking about recently!</p>
+						<h1>Recent Blog Posts</h1>
 					</div>  <!-- .wrapper -->
 					<div class="blog-post">
 						<div class="blog-head-banner">

@@ -1,21 +1,24 @@
 .post-styles {
 	p {
-		line-height: 1.3;
 		padding: 0 10px;
-		margin: 10px 0;
-		font-size: 24px;
+		margin: 30px 0;
+		line-height: $lineh-large;
+		font-size: $font-large;
 		color: $dblack;
 		@include font-stack-brand;
 		@include bp(neptune) {
-			font-size: 20px;
+			margin: 20px 0;
+			line-height: $lineh-med;
+			font-size: $font-med;
 		}
 		@include bp(venus) {
-			font-size: 16px;
+			line-height: $lineh-small;
+			font-size: $font-small;
 		}
 	}
 	h2 {
 		font-size: 36px;
-		line-height: 1;
+		line-height: $lineh-large;
 		font-weight: 700;
 		@include font-stack-brand;
 		@include bp(neptune) {
@@ -27,7 +30,7 @@
 	}
 	h3 {
 		font-size: 32px;
-		line-height: 1;
+		line-height: $lineh-med;
 		font-weight: 700;
 		@include font-stack-brand;
 		@include bp(neptune) {
@@ -39,7 +42,7 @@
 	}
 	h4 {
 		font-size: 28px;
-		line-height: 1;
+		line-height: $lineh-small;
 		font-weight: 700;
 		@include font-stack-brand;
 		@include bp(neptune) {
@@ -51,7 +54,7 @@
 	}
 	h5 {
 		font-size: 24px;
-		line-height: 1;
+		line-height: $lineh-small;
 		font-weight: 700;
 		@include font-stack-brand;
 		@include bp(neptune) {
@@ -63,7 +66,17 @@
 	}
 	a {
 		color: $blue;
+		line-height: $lineh-large;
+		font-size: $font-large;
 		@include font-stack-brand;
+		@include bp(neptune) {
+			line-height: $lineh-med;
+			font-size: $font-med;
+		}
+		@include bp(venus) {
+			line-height: $lineh-small;
+			font-size: $font-small;
+		}
 		&:hover, &:focus {
 			color: $lightorange;
 			transition: color .15s linear;
@@ -143,21 +156,22 @@
 	}
 	ul {
 		padding: 0;
-		margin: 10px 0 10px 20px;
+		margin: 20px 0 20px 20px;
 		display: block;
 		li {
 			padding: 0;
 			margin: 10px 0;
 			width: 100%;
-			font-size: 24px;
+			line-height: $lineh-large;
+			font-size: $font-large;
 			float: left;
 			@include bp(neptune) {
-				font-size: 20px;
-				margin: 5px 0;
+				line-height: $lineh-med;
+				font-size: $font-med;
 			}
 			@include bp(venus) {
-				font-size: 16px;
-				margin: 2px 0;
+				line-height: $lineh-small;
+				font-size: $font-small;
 			}
 		}
 	}
@@ -165,20 +179,22 @@
 		padding: 10px 75px;
 		margin: 20px 10%;
 		width: 80%;
-		line-height: 1.3;
-		font-size: 24px;
+		line-height: $lineh-large;
+		font-size: $font-large;
 		font-style: italic;
 		@include font-stack-brand;
 		background: $mediumgray url('../images/content/openquote.png') top left no-repeat;
 		display: inline-block;
 		box-shadow: 0 0 2px 0;
 		@include bp(neptune) {
-			font-size: 20px;
+			line-height: $lineh-med;
+			font-size: $font-med;
 			padding: 5px 10px;
 			margin: 20px 10%;
 		}
 		@include bp(venus) {
-			font-size: 16px;
+			line-height: $lineh-small;
+			font-size: $font-small;
 			margin: 20px 5%;
 			width: 90%;
 		}
@@ -188,12 +204,13 @@
 		font-style: 24px;
 		background: $mediumgray;
 		display: inline;
+		font-size: $font-large;
 		font-family: Consolas, Monaco, 'Andale Mono', monospace;
 		@include bp(neptune) {
-			font-size: 20px;
+			font-size: $font-med;
 		}
 		@include bp(venus) {
-			font-size: 16px;
+			font-size: $font-small;
 		}
 	}
 	> code {
@@ -213,7 +230,7 @@
 .user-meta-data {
 	h3 {
 		font-size: 30px;
-		line-height: 1;
+		line-height: $lineh-large;
 		font-weight: 700;
 		padding: 15px 0 5px 10px;
 		margin: 10px 0 0 0;
@@ -282,7 +299,7 @@
 }
 
 .single-blog-wrap {
-	background: $strongblue!important;
+	background: $marqueblue!important;
 }
 
 .blog-post-container {
@@ -297,7 +314,7 @@
 	}
 	.blog-title {
 		display: block;
-		padding: 0 50px;
+		padding: 0 100px;
 		@include bp(earth) {
 			padding: 0 10px;
 		}
@@ -327,7 +344,7 @@
 		}
 	}
 	.single-blog-post {
-		padding: 25px 50px;
+		padding: 25px 100px;
 		@include bp(earth) {
 			padding: 25px 10px;
 		}

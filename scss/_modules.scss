@@ -12,8 +12,9 @@
 	@include clearfix;
 	width: 100%;
 	.wrapper {
-		width: 45%;
+		//width: 45%;
 		padding: 10px 0 0 10px;
+		margin: 0 0 0 25px;
 		float: left;
 		@include bp(neptune) {
 			width: 80%;
@@ -21,33 +22,36 @@
 			margin: 0 10%;
 			text-align: center;
 		}
+		@include bp(venus) {
+			width: 100%;
+			margin: 0;
+		}
 		@include clearfix;
 		a {
 			padding: 20px 0 0 10px;
-			line-height: 1;
+			line-height: 1.5;
 			margin: 30px 0 0 20px;
-			font-size: 48px;
+			font-size: 36px;
 			font-weight: 300;
+			letter-spacing: 2px;
 			color: $white;
 			width: 100%;
 			text-align: left;
 			cursor: pointer;
-			@include font-stack-body;
+			@include font-stack-brand;
 			@include bp(neptune) {
 				padding: 0;
 				margin: 0;
 			}
 			@include bp(venus) {
-				font-size: 36px;
-			}
-			@include bp(mercury) {
 				font-size: 32px;
 				margin: 15px 0 0 5px;
 			}
 		}
 	}
 	.menu {
-		width: 55%;
+		//width: 55%;
+		margin: 0 50px 0 0;
 		float: right;
 		@include bp(neptune) {
 			display: inline-block;
@@ -67,14 +71,15 @@
 				a {
 					color: $morange;
 					background: none;
-					padding: 5px 15px 10px 15px;
+					padding: 15px 20px;
 					margin: 5px 0;
 					border-radius: 5px;
 					display: inline;
 					float: right;
-					font-size: 24px;
+					font-size: 20px;
 					text-align: right;
-					@include font-stack-body;
+					letter-spacing: 2px;
+					@include font-stack-brand;
 				}
 				&:hover a, &:focus a {
 					color: $white;
@@ -298,6 +303,7 @@ ul {
 		}
 		p {
 			padding: 0 0 25px 0;
+			font-size: 20px;
 			color: $white;
 			text-align: center;
 			@include font-stack-brand;
@@ -327,6 +333,7 @@ ul {
 		}
 		p {
 			padding: 0 0 25px 0;
+			font-size: 20px;
 			color: $white;
 			text-align: center;
 			@include font-stack-brand;
@@ -352,7 +359,8 @@ ul {
 		padding: 50px 0;
 	}
 	h2 {
-		font-size: 40px;
+		font-size: 36px;
+		letter-spacing: 2px;
 		text-align: center;
 		color: $morange;
 		@include font-stack-brand;
@@ -360,6 +368,8 @@ ul {
 	p {
 		text-align: center;
 		color: $white;
+		padding: 5px 50px;
+		font-size: 20px;
 		@include font-stack-brand;
 		@include bp(earth) {
 
@@ -410,7 +420,7 @@ ul {
 				font-size: 18px;
 			}
 			.bio-icon {
-				width: 150px;
+				width: 100px;
 				fill: $morange;
 				@include bp(earth) {
 					width: 75px;
@@ -427,8 +437,9 @@ ul {
 	margin-right: auto;
 	@include clearfix;
 	h2 {
-		font-size: 40px;
+		font-size: 36px;
 		margin: 50px 0 0 0;
+		letter-spacing: 2px;
 		color: $morange;
 		text-align: center;
 		@include font-stack-brand;
@@ -460,8 +471,8 @@ ul {
 
 .work-description {
 	width: 50%;
-	padding: 135px 50px;
-	line-height: 1.2;
+	padding: 135px 100px;
+	line-height: 1.4;
 	float: right;
 	@include bp(neptune) {
 		padding: 100px 50px;
@@ -479,8 +490,8 @@ ul {
 
 .project-description {
 	width: 50%;
-	padding: 135px 50px;
-	line-height: 1.2;
+	padding: 135px 100px;
+	line-height: 1.4;
 	float: left;
 	@include bp(neptune) {
 		padding: 100px 50px;
@@ -571,6 +582,7 @@ ul {
 			h1 {
 				font-size: 36px;
 				line-height: 1;
+				letter-spacing: 2px;
 				margin: 50px 0 10px 0;
 				color: $morange;
 				text-align: center;
@@ -632,7 +644,7 @@ ul {
 					display: inline;
 					line-height: 1;
 					width: 20%;
-					@include font-stack-body;
+					@include font-stack-brand;
 					> p {
 						display: inline-block;
 						color: $blue;
@@ -710,7 +722,7 @@ ul {
 	font-size: 48px;
 	padding: 100px 0 0 0;
 	> span {
-		@include font-stack-body;
+		@include font-stack-brand;
 	}
 }
 .strikethrough span {
@@ -742,12 +754,13 @@ ul {
 	overflow: hidden;
 	float: left;
 	width: 100%;
-	background: $strongblue;
+	background: $marqueblue;
 	@include clearfix;
 	.contact-heading {
 		> span {
 			color: $morange;
 			font-size: 40px;
+			letter-spacing: 2px;
 			@include font-stack-brand;
 		}
 	}
@@ -920,7 +933,7 @@ ul {
 }
 
 .link-to-top {
-	width: 150px;
+	width: 155px;
 	display: block;
 	margin: 0 auto;
 	.jump-top-wrap {

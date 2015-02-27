@@ -1,4 +1,5 @@
-** Portfolio **
+# Portfolio
+
 This design was intended to be used with the portfolio for James C. Searson, a place to disclose all information about the author.
 
 # Tasks
@@ -12,6 +13,7 @@ JavaScript and other js files in js/main were linted, minified, and combined int
 This theme is not yet licensed.
 
 #SVG Icons - Author Credits
+
 	Facebook Icon
 		Icons made by Alessio Atzeni from www.flaticon.com is licensed by CC BY 3.0
 	LinkedIn Icon
