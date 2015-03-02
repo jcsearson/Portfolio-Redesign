@@ -96,7 +96,8 @@
 				<div class="sidebar-nav">
 					<ol class="categories-wrap">
 						<div class="title-sidebar-wrap">
-							<h2>Categories</h2><span class="line-bar"></span>
+							<h2>Categories</h2>
+							<span class="line-bar-after"></span>
 						</div>
 						<li><span>></span><a href="category.php">Web Development</a></li><br>
 						<li><span>></span><a href="category.php">Mathematics</a></li><br>
@@ -105,7 +106,8 @@
 					</ol>
 					<ol class="recent-post-wrap">
 						<div class="title-sidebar-wrap">
-							<h2>Blog Posts</h2><span class="line-bar"></span>
+							<h2>Blog Posts</h2>
+							<span class="line-bar-after"></span>
 						</div>
 						<li><span>></span><a href="category.php">Some Handy Code Pieces</a></li><br>
 						<li><span>></span><a href="category.php">Helpful Things to know about Contact Forms</a></li><br>

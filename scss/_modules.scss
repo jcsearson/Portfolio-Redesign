@@ -2,8 +2,8 @@
 //====================================
 $total-colums		: 12;
 $column-width		: 4em;
-$gutter-width		: 1em;
-$grid-padding		: $gutter-width;
+$gutter-width		: .5em;
+$grid-padding		: 1em;
 
 @include border-box-sizing;
 

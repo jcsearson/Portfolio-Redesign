@@ -27,10 +27,9 @@
 		</section>  <!-- .about-container -->
 
 		<section class="single-post-container">
-
 			<div class="blog-post-container">
 				<div class="category-archive-title">
-					<h2 class="category-title">Blog Posts about Category</h2>
+					<h2 class="category-title">Blog Posts about categoryName</h2>
 				</div>  <!-- .blog-title -->
 				<section class="single-cat-post">
 					<div class="post-img-thumb">
@@ -38,11 +37,14 @@
 					</div>
 					<div class="main-post-cont">
 						<h2 class="post-sample-title"><a href="#">Some Handy Code Pieces</a></h2>
-						<h3 class="post-time-stamp">February 9, 2015</h3>
+						<h3 class="post-time-stamp">Posted on February 9, 2015</h3>
+						<h3 class="post-author-sign">Author: James C. Searson</h3>
 						<p class="post-excerpt">I constantly have to go back and search for snippets of code whenever I encounter a problem building a site. This can be frustrating especially when I know that I have already solved that very same issue at some prior point in time. As a result I have decided it is time to add a […]</p>
 					</div>
 					<div class="button-wrapper">
-						<a href="#" class="read-on-button">Read Post</a>
+						<span class="line-bar-after"></span>
+						<a href="#" class="read-on-button">Read Article</a>
+						<span class="line-bar-after"></span>
 					</div>
 				</section>
 				<section class="single-cat-post">
@@ -51,11 +53,14 @@
 					</div>
 					<div class="main-post-cont">
 						<h2 class="post-sample-title"><a href="#">Helpful Things to know about Contact Forms</a></h2>
-						<h3 class="post-time-stamp">February 3, 2015</h3>
+						<h3 class="post-time-stamp">Posted on February 3, 2015</h3>
+						<h3 class="post-author-sign">Author: James C. Searson</h3>
 						<p class="post-excerpt">I was redesigning the contact portion of my portfolio site today, and as per usual spent quite a bit of time googling and searching things to get the form jusssst right.  Here are a few of the things I incorporated into the final product:   1.  Placeholder Text It’s fairly simple to add placeholder text […]</p>
 					</div>
 					<div class="button-wrapper">
-						<a href="#" class="read-on-button">Read Post</a>
+						<span class="line-bar-after"></span>
+						<a href="#" class="read-on-button">Read Article</a>
+						<span class="line-bar-after"></span>
 					</div>
 				</section>
 				<section class="single-cat-post">
@@ -64,11 +69,14 @@
 					</div>
 					<div class="main-post-cont">
 						<h2 class="post-sample-title"><a href="#">A Small (but Incredibly Handy) Sublime Text Setting</a></h2>
-						<h3 class="post-time-stamp">February 3, 2015</h3>
+						<h3 class="post-time-stamp">Posted on February 3, 2015</h3>
+						<h3 class="post-author-sign">Author: James C. Searson</h3>
 						<p class="post-excerpt">A handy little setting in Sublime Text that I encourage everyone to use is: “save_on_focus_lost”: true, Save this little block of code in the user-settings and from then on when you switch windows from Sublime Text to something else like Chrome, Sublime automatically saves your files. […]</p>
 					</div>
 					<div class="button-wrapper">
-						<a href="#" class="read-on-button">Read Post</a>
+						<span class="line-bar-after"></span>
+						<a href="#" class="read-on-button">Read Article</a>
+						<span class="line-bar-after"></span>
 					</div>
 				</section>
 				<section class="single-cat-post">
@@ -77,11 +85,14 @@
 					</div>
 					<div class="main-post-cont">
 						<h2 class="post-sample-title"><a href="#">How Can Cache Affect You?</a></h2>
-						<h3 class="post-time-stamp">January 14, 2015</h3>
+						<h3 class="post-time-stamp">Posted on January 17, 2015</h3>
+						<h3 class="post-author-sign">Author: James C. Searson</h3>
 						<p class="post-excerpt">Recently I got Premium WordPress Hosting with MediaTemple.  I have been working on a site for several months now and decided that I would need to have a host that could be more accessible to me in my times of need.  I use WebHosting For Students for my portfolio and have no complaints but I […]</p>
 					</div>
 					<div class="button-wrapper">
-						<a href="#" class="read-on-button">Read Post</a>
+						<span class="line-bar-after"></span>
+						<a href="#" class="read-on-button">Read Article</a>
+						<span class="line-bar-after"></span>
 					</div>
 				</section>
 			</div>  <!-- .single-blog-post   .post-styles-->
@@ -90,7 +101,8 @@
 				<div class="sidebar-nav">
 					<ol class="categories-wrap">
 						<div class="title-sidebar-wrap">
-							<h2>Categories</h2><span class="line-bar"></span>
+							<h2>Categories</h2>
+							<span class="line-bar-after"></span>
 						</div>
 						<li><span>></span><a href="#">Web Development</a></li><br>
 						<li><span>></span><a href="#">Mathematics</a></li><br>
@@ -99,7 +111,8 @@
 					</ol>
 					<ol class="recent-post-wrap">
 						<div class="title-sidebar-wrap">
-							<h2>Blog Posts</h2><span class="line-bar"></span>
+							<h2>Blog Posts</h2>
+							<span class="line-bar-after"></span>
 						</div>
 						<li><span>></span><a href="#">Some Handy Code Pieces</a></li><br>
 						<li><span>></span><a href="#">Helpful Things to know about Contact Forms</a></li><br>
