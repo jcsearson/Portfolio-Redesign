@@ -10,14 +10,14 @@ body {
 	margin: 0 auto;
 	color: darken($black, 0.9);
 	font-size: 24px;
-	@include font-stack-body;
+	@include font-stack-brand;
 }
 
 #{headings()} {
 	line-height: 1.5;
 	font-weight: 300;
 	font-size: 32px;
-	@include font-stack-body;
+	@include font-stack-brand;
 	padding: 5px 10px;
 	color: $black;
 }

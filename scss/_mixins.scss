@@ -52,4 +52,8 @@
   @if $point == mercury {
     @media (max-width: 390px) { @content; }
   }
+  /* Query below was Specially designed for use with the Susy grid */
+  @if $point == drummer {
+    @media (max-width: 65em) { @content; }
+  }
 }

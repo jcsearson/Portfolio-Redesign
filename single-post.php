@@ -7,6 +7,7 @@
 
 
 		<div class="head-container">
+			<a id="top-page-jump"></a>
 				<div class="head-wrap">
 					<?php include("parts/header.php"); ?>
 
@@ -14,19 +15,19 @@
 				</div>  <!-- .head-wrap -->
 		</div>  <!-- .head-container -->
 
-		<div class="main-container single-blog-wrap">
-			<section class="about-container">
-				<div class="cont-about tint">
-					<div class="wrapper">
-						<div class="thoughts">
-							<p></p>
-						</div>  <!-- .thoughts -->
-					</div>  <!-- .wrapper -->
-				</div>  <!-- .cont-about -->
-			</section>  <!-- .about-container -->
+	<div class="main-container single-blog-wrap">
+		<section class="about-container">
+			<div class="cont-about tint">
+				<div class="wrapper">
+					<div class="thoughts">
+						<p></p>
+					</div>  <!-- .thoughts -->
+				</div>  <!-- .wrapper -->
+			</div>  <!-- .cont-about -->
+		</section>  <!-- .about-container -->
 
 
-
+		<section class="single-post-container">
 			<div class="blog-post-container">
 				<div class="blog-title">
 					<h2 class="blog-post-heading">Helpful Things to know about Contact Forms</h2>
@@ -91,132 +92,37 @@
 				</div>
 			</div>  <!-- .blog-post-container -->
 
-			<ol class="commentlist">
-				<h2 class="strikethrough comment-heading"><span>Comments</span></h2>
-				<li class="comments post-styles">
-					<div class="user-meta-data">
-						<h3>Matt edwards</h3>
-						<h4 class="time-stamp-comment-main"><span class="stamp-before">Published:  </span>January 21, 2015</h4>
-
-					</div>  <!-- .user-meta-data -->
-					<p>Hey Chris,  <br><br>Just a heads up. I’m not sure where the issue lies but I can’t get the video embed to play in chrome on an iPad. It just doesn’t respond to touch.</p>
-					<div class="reply">
-						<a class="comments-reply-link" href="#">Reply</a>
-					</div>
-					<ul class="children">
-						<li class="comment">
-							<div class="user-meta-data">
-								<h3>Chris Coyier</h3>
-								<h4><span class="stamp-before">Published:  </span>January 21, 2015</h4>
-
-							</div>  <!-- .user-meta-data -->
-							<p>It’s just a YouTube embed, so I dunno. Do other YouTube embeds work for you? I’m burying this just because it doesn’t have anything to do with the content for this video, but we can keep talking it out if you like.</p>
-						</li>  <!-- .comment-reply -->
-						<li class="comment">
-							<div class="user-meta-data">
-								<h3>Todd</h3>
-								<h4><span class="stamp-before">Published:  </span>January 27, 2015</h4>
-
-							</div>  <!-- .user-meta-data -->
-							<p>Same here. On Safari iPhone 6</p>
-						</li>  <!-- .comment-reply -->
-					</ul>  <!-- .children -->
-				</li>  <!-- .single-comment   .post-styles -->
-				<li class="comments post-styles">
-					<div class="user-meta-data">
-						<h3>shaneisme</h3>
-						<h4><span class="stamp-before">Published:  </span>January 27, 2015</h4>
-
-					</div>  <!-- .user-meta-data -->
-					<p>You should get posts once, and then split them after so you only have one query :)</p>
-					<div class="reply">
-						<a class="comments-reply-link" href="#">Reply</a>
-					</div>
-				</li><!-- .single-comment   .post-styles -->
-				<li class="comments post-styles">
-					<div class="user-meta-data">
-						<h3>Vitor Melo</h3>
-						<h4><span class="stamp-before">Published:  </span>January 29, 2015</h4>
-
-					</div><!-- .user-meta-data -->
-					<p>ACF is very userful. I don’t live without it in my projects, thanks for video Chris.</p>
-					<div class="reply">
-						<a class="comments-reply-link" href="#">Reply</a>
-					</div>
-				</li><!-- .single-comment   .post-styles -->
-				<li class="comments post-styles">
-					<div class="user-meta-data">
-						<h3>Vitor Melo</h3>
-						<h4><span class="stamp-before">Published:  </span>January 29, 2015</h4>
-
-					</div>  <!-- .user-meta-data -->
-					<p>I like to plugin Types too (<a href="https://wordpress.org/plugins/types/screenshots/">https://wordpress.org/plugins/types/screenshots/</a>). This plugin combine, CTP with Custom Fields.</p>
-					<div class="reply">
-						<a class="comments-reply-link" href="#">Reply</a>
-					</div>
-				</li>  <!-- .single-comment   .post-styles -->
-			</ol>  <!-- .blog-comment-container -->
-
-
-
-			<div class="user-comments">
-				<form action="wp-comments-post.php" method="post" class="comment-form">
-					<h2 class="title-comments-form">Leave a Reply</h2>
-
-					<div class="input-comments">
-						<span class="first-span">
-							<input
-								class="comment-field1"
-								name="first_name"
-								type="text"
-								value=""
-								tabindex="1"
-								placeholder="First Name"		/>
-						</span>
-						<span>
-							<input
-								class="comment-field2"
-								name="last_name"
-								type="text"
-								value=""
-								tabindex="2"
-								placeholder="Last Name"		/>
-						</span>
-						<div class="email-box">
-							<input
-								class="comment-field3"
-								name="email"
-								type="email"
-								spellcheck="false"
-								class="field text medium"
-								value=""
-								maxlength="255"
-								tabindex="3"
-								placeholder="Email   ( hidden )"       />
+			<section class="sidebar-nav-wrap">
+				<div class="sidebar-nav">
+					<ol class="categories-wrap">
+						<div class="title-sidebar-wrap">
+							<h2>Categories</h2><span class="line-bar"></span>
 						</div>
-						<div class="msg-box">
-							<textarea
-								class="comment-field4"
-								name="message"
-								class="field textarea small"
-								spellcheck="true"
-								rows="10" cols="50"
-								tabindex="4"
-								onkeyup=""
-								placeholder="Message"
-							       ></textarea>
+						<li><span>></span><a href="category.php">Web Development</a></li><br>
+						<li><span>></span><a href="category.php">Mathematics</a></li><br>
+						<li><span>></span><a href="category.php">Social</a></li><br>
+						<li><span>></span><a href="category.php">Film</a></li><br>
+					</ol>
+					<ol class="recent-post-wrap">
+						<div class="title-sidebar-wrap">
+							<h2>Blog Posts</h2><span class="line-bar"></span>
 						</div>
-						<div class="submit-comment-button">
-							<button name="saveForm" class="submit" type="submit" value="Post" tabindex="5">
-								<div class="submit-icon-wrap">
-									<h3>Post</h3>
-								</div>  <!-- .submit-icon-wrap -->
-							</button>  <!-- .submit -->
-						</div>  <!-- .submit-button -->
-					</div>
-				</form>
-			</div>
-
+						<li><span>></span><a href="category.php">Some Handy Code Pieces</a></li><br>
+						<li><span>></span><a href="category.php">Helpful Things to know about Contact Forms</a></li><br>
+						<li><span>></span><a href="category.php">A Small (but Incredibly Handy) Sublime Text Setting</a></li><br>
+						<li><span>></span><a href="category.php">How Can Cache Affect You?</a></li><br>
+						<li><span>></span><a href="category.php">Web Fundamentals</a></li><br>
+					</ol>
+				</div>  <!-- .sidebar-nav -->
+			</section>  <!-- .sidebar-nav-wrap -->
+		</section>  <!-- .single-post-container -->
+		<a href="#top-page-jump" class="link-to-top">
+			<section class="jump-top-wrap">
+				<div class="jump-top-outer">
+					<div class="jump-top-inner"></div>
+				</div>
+			</section>
+		</a>
 
 			<?php include("parts/footer.php"); ?>
 	</body>

@@ -7,12 +7,12 @@
 
 
 		<div class="head-container">
-		<a id="top-page-jump"></a>
-				<div class="head-wrap">
-					<?php include("parts/header.php"); ?>
+			<a id="top-page-jump"></a>
+			<div class="head-wrap">
+				<?php include("parts/header.php"); ?>
 
-					<?php include("parts/nav.php"); ?>
-				</div>  <!-- .head-wrap -->
+				<?php include("parts/nav.php"); ?>
+			</div>  <!-- .head-wrap -->
 		</div>  <!-- .head-container -->
 
 		<div class="main-container">
