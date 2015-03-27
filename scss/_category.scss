@@ -11,29 +11,18 @@
 	width: 100%;
 	background: $mblack;
 	@include clearfix;
-	.post-img-thumb {
-		padding: 75px	50px;
-		width: 20%;
-		float: left;
-		@include bp(mars) {
-			padding: 20px 25px;
-		}
-		@include bp(moon) {
-			display: none;
-		}
-	}
 	.main-post-cont {
-		float: right;
 		padding: 10px 25px;
-		width: 75%;
+		width: 100%;
 		@include bp(moon) {
 			width: 100%;
 		}
 		.post-sample-title {
 			line-height: 1.1;
 			a {
-				font-size: $font-xl;
+				font-size: $font-xxl;
 				color: $morange;
+				width: 100%;
 				@include font-stack-brand;
 				@include bp(moon) {
 					line-height: 1;
@@ -57,19 +46,46 @@
 			font-style: italic;
 			@include font-stack-brand;
 		}
-		.post-excerpt {
-			padding-top: 25px;
+		.post-img-thumb {
+			padding: 5px 10px 0 0;
+			@include bp(mars) {
+				//padding: 20px 25px;
+			}
+			@include bp(moon) {
+				//display: none;
+			}
+			img {
+				width: 100%;
+			}
+		}
+		.math-img-thumb {
+			padding: 5px 10px 0 0;
+			img {
+				width: 30%!important;
+				@include bp(mars) {
+					width: 100%!important;
+				}
+			}
+		}
+		> p {
+			padding-top: 10px;
 			line-height: $lineh-small;
-			font-size: $font-large;
-			color: $gray;
+			font-size: $font-med;
+			color: $white;
 			@include font-stack-brand;
 			@include bp(moon) {
+				font-size: $font-small;
+				padding-top: 0;
+			}
+			> a {  /* the continue reading argument for the_excerpt */
+				color: $gray;
 				font-size: $font-med;
 			}
 		}
 	}
 	.button-wrapper {
 		width: 100%;
+		margin-bottom: 50px;
 		display: inline-block;
 		text-align: center;
 		.line-bar-after {

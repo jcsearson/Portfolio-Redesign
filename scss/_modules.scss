@@ -31,6 +31,11 @@ $large				: 65em;
 		}
 		padding: 10px 0 0 0;
 		margin: 0;
+		@include bp(moon) {
+			width: 100%;
+			display: block;
+			text-align: center;
+		}
 		a {
 			padding: 0;
 			line-height: 1.2;
@@ -617,6 +622,7 @@ ul {
 					float: left;
 					display: inline-block;
 					width: 80%;
+					color: $blue;
 					@include font-stack-body;
 					@include bp(venus) {
 						font-size: 24px;
@@ -624,6 +630,7 @@ ul {
 					}
 					&:hover, &:focus {
 						color: $black;
+						transition: .2s color linear;
 					}
 				}
 				.blog-post-reply-count {
@@ -950,10 +957,22 @@ ul {
 				border-left: 70px solid transparent;
 				border-right: 70px solid transparent;
 				border-bottom: 45px solid $mblack;
+				.arrowup {
+					position: absolute;
+					top: 20px;
+					left: -63px;
+					fill: $marqueblue;
+					display: hidden;
+				}
 			}
 			&:hover .jump-top-inner, &:focus .jump-top-inner {
 				border-bottom: 45px solid $mblack;
 				transition: .25s border linear;
+			}
+			&:hover .jump-top-inner .arrowup, &:focus .jump-top-inner .arrowup {
+				display: block;
+				fill: $morange;
+				transition: .25s fill linear;
 			}
 		}
 	}

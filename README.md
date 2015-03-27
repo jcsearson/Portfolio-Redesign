@@ -40,3 +40,5 @@ This theme is not yet licensed.
 		Icons made by Freepik from www.flaticon.com is licensed by CC BY 3.0
 	Apple Desktop and Laptop
 		By Pierre Borodin
+	Arrow (up)
+		Icons made by Freepik from www.flaticon.com is licensed by CC BY 3.0
